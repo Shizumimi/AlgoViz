@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: flex;
+  z-index: 10; 
+  visibility: visible;
+}
+#sketch{
+  display: flex;
+  position: absolute;
+  height: 0px;
+  width: 100%;
+  left: 320px;;
+  top: 150px;
+}
+#bubbleSortCode{
+  resize: none;
+  position: relative;
+  width: 300px;
+  height: 230px;
+}
+
+#codeInput{
+  resize: none;
+  position: relative;
+  width: 300px;
+  height: 230px;
+} 
+
+.title{
+  text-align: center;
+  font-weight: bold;
+}
+
+#controls {
+  display: flex;
+  position: absolute;
+  margin-bottom: 30px;
+  height: 20px;
+  width: 100%;
+  left: 320px;
+  top:100px;
+}
+
+
+
